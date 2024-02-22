@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">NutritionTrackerRma</string>
+    <string name="login">Login</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_dailyPlan">Daily Plan</string>
+    <string name="menu_profile">Profile</string>
+    <string name="email">Email</string>
+    <string  formatted="false" name="username">username</string>
+    <string name="monday">mon</string>
+    <string name="tuesday">tue</string>
+    <string name="wednesday">wed</string>
+    <string name="thursday">thu</string>
+    <string name="friday">fri</string>
+    <string name="saturday">sat</string>
+    <string name="sunday">sun</string>
+    <string name="january">january</string>
+    <string name="february">february</string>
+    <string name="march">march</string>
+    <string name="april">april</string>
+    <string name="may">may</string>
+    <string name="august">august</string>
+    <string name="september">september</string>
+    <string name="october">october</string>
+    <string name="november">november</string>
+    <string name="december">december</string>
+    <string-array name="user">
+        <item name="username">PeraDetlic</item>
+        <item name="password">Password123</item>
+        <item name="email">PeraDetlic@raf.rs</item>
+    </string-array>
+    <string name="timepicker1">Pick starting time</string>
+    <string name="timepicker2">Pick ending time</string>
+    <string name="splashScreen">Dnevnjak</string>
+    <string name="changePassword">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="typePassword">Type Password</string>
+    <string name="retypePassword">Retype password</string>
+    <string name="enterPassword">Enter your password</string>
+    <string name="enterEmail">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="pastObligations">Show past obligations</string>
+    <string name="create">Create</string>
+    <string name="eventIsAlreadyHappeningTime">Other event is already happening at that time</string>
+    <string name="startingTimeCantBeAfter">Starting time cant be after Ending time</string>
+    <string name="timeMandatory">Starting time cant be after Ending time</string>
+    <string name="successEditingEvent">Successfully edited event</string>
+    <string name="usernameMandatory">Username is mandatory</string>
+    <string name="passwordMandatory">Password is mandatory</string>
+    <string name="emailMandatory">Email is mandatory</string>
+    <string name="invalidEmail">Not a valid email</string>
+    <string name="invalidPassword">Not a valid password</string>
+    <string name="invalidCombination">Invalid username/password combo</string>
+    <string name="confirmDelete">Confirm delete</string>
+    <string name="successDeleting">Successfully Deleted event</string>
+    <string name="oldpasseqnew">New password cant be same as old one</string>
+    <string name="passNotGood">Password is not good enough</string>
+    <string name="passnomatch">Passwords dont match</string>
+    <string name="confirmDeleteText">Are you sure you want to perform delete this event?</string>
+    <string name="desc">Description</string>
+
+</resources>

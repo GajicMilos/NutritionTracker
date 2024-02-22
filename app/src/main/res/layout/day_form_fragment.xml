@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/dayFormMondayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Monday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dayFormWednesdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Wednesday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormTuesdayButton"
+        app:layout_constraintStart_toStartOf="@+id/dayFormTuesdayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormTuesdayButton" />
+
+    <Button
+        android:id="@+id/dayFormThursdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Thursday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormWednesdayButton"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/dayFormWednesdayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormWednesdayButton" />
+
+    <Button
+        android:id="@+id/dayFormFridayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Friday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormThursdayButton"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/dayFormThursdayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormThursdayButton" />
+
+    <Button
+        android:id="@+id/dayFormSaturdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="36dp"
+        android:text="Saturday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormFridayButton"
+        app:layout_constraintStart_toStartOf="@+id/dayFormFridayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormFridayButton" />
+
+    <Button
+        android:id="@+id/dayFormSundayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Sunday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormSaturdayButton"
+        app:layout_constraintStart_toStartOf="@+id/dayFormSaturdayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormSaturdayButton" />
+
+    <Button
+        android:id="@+id/dayFormTuesdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Tuesday"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormMondayButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dayFormMondayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormMondayButton" />
+
+    <Button
+        android:id="@+id/dayFormProccedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dayFormSundayButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dayFormSundayButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayFormSundayButton"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose meals for day"
+        app:layout_constraintBottom_toTopOf="@+id/dayFormMondayButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

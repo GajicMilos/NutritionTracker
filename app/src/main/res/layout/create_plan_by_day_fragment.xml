@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dayDayTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:layout_marginVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dayBreakfastButton"
+        app:layout_constraintEnd_toStartOf="@+id/dayBreakfastButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dayBreakfastButton" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch"
+
+        app:layout_constraintBottom_toBottomOf="@+id/dayLunchButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/dayLunchButton" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        app:layout_constraintBottom_toBottomOf="@+id/dayDinnerButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/dayDinnerButton" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snack"
+        app:layout_constraintBottom_toBottomOf="@+id/daySnackButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/daySnackButton" />
+
+    <Button
+        android:id="@+id/dayBreakfastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="Choose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayDayTv" />
+
+    <Button
+        android:id="@+id/dayLunchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:layout_marginVertical="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/dayBreakfastButton"
+        app:layout_constraintStart_toStartOf="@+id/dayBreakfastButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayBreakfastButton" />
+
+    <Button
+        android:id="@+id/dayDinnerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="Choose"
+        app:layout_constraintEnd_toEndOf="@+id/dayLunchButton"
+        app:layout_constraintStart_toStartOf="@+id/dayLunchButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayLunchButton" />
+
+    <Button
+        android:id="@+id/daySnackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="Choose"
+        app:layout_constraintEnd_toEndOf="@+id/dayDinnerButton"
+        app:layout_constraintStart_toStartOf="@+id/dayDinnerButton"
+        app:layout_constraintTop_toBottomOf="@+id/dayDinnerButton" />
+
+    <Button
+        android:id="@+id/daySaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/daySnackButton"
+        app:layout_constraintStart_toStartOf="@+id/daySnackButton"
+        app:layout_constraintTop_toBottomOf="@+id/daySnackButton" />
+
+    <TextView
+        android:id="@+id/dayBreakfastTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose meal"
+        app:layout_constraintBottom_toBottomOf="@+id/dayBreakfastButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dayBreakfastButton"
+        app:layout_constraintTop_toTopOf="@+id/dayBreakfastButton" />
+
+    <TextView
+        android:id="@+id/dayLunchTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose meal"
+        app:layout_constraintBottom_toBottomOf="@+id/dayLunchButton"
+        app:layout_constraintEnd_toEndOf="@+id/dayBreakfastTv"
+        app:layout_constraintStart_toStartOf="@+id/dayBreakfastTv"
+        app:layout_constraintTop_toTopOf="@+id/dayLunchButton" />
+
+    <TextView
+        android:id="@+id/dayDinnerTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose meal"
+        app:layout_constraintBottom_toBottomOf="@+id/dayDinnerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dayDinnerButton"
+        app:layout_constraintTop_toTopOf="@+id/dayDinnerButton" />
+
+    <TextView
+        android:id="@+id/daySnackTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose meal"
+        app:layout_constraintBottom_toBottomOf="@+id/daySnackButton"
+        app:layout_constraintEnd_toEndOf="@+id/dayDinnerTv"
+        app:layout_constraintStart_toStartOf="@+id/dayDinnerTv"
+        app:layout_constraintTop_toTopOf="@+id/daySnackButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
